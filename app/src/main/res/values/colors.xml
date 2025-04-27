@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#8B87E5</color>  <!-- Purple -->
+    <color name="primary_dark">#7671E3</color>
+    <color name="primary_light">#A5A1FF</color>
+    <color name="accent">#FFB5B5</color>   <!-- Pink -->
+    <color name="accent_light">#FFE0E0</color>
+    <color name="background">#F8F6FF</color>  <!-- Light purple background -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#2D2B4E</color>  <!-- Dark purple text -->
+    <color name="text_secondary">#6E6C8F</color>
+    <color name="divider">#E8E7F0</color>
+    <color name="check_mark">#8B87E5</color>  <!-- Purple for check mark -->
+    <color name="exclamation">#FFB5B5</color>  <!-- Pink for exclamation -->
+    <color name="button_background">#2D2B4E</color>  <!-- Dark purple for buttons -->
+    <color name="button_text">#FFFFFF</color>
+</resources>
