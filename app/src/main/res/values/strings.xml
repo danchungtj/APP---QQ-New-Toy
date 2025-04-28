@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">QQ New Toy Counter</string>
+    <string name="app_name">QQ\'s Study History</string>
+    <string name="greeting">Keep track of QQ\'s study and new toys!\n\nStudy and Toy Calendar</string>
+    <string name="today_s_toy">Today\'s Study and Toys</string>
+    <string name="add_new_toy">Add Note For Today</string>
+    <string name="note_hint">Type your note here...</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>

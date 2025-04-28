@@ -2,6 +2,7 @@ package com.example.qqnewtoy.data
 
 import androidx.room.TypeConverter
 import java.util.Date
+import com.example.qqnewtoy.data.DayState
 
 class Converters {
     @TypeConverter

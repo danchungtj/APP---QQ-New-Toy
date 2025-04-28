@@ -10,7 +10,7 @@
     <color name="text_primary">#2D2B4E</color>  <!-- Dark purple text -->
     <color name="text_secondary">#6E6C8F</color>
     <color name="divider">#E8E7F0</color>
-    <color name="check_mark">#8B87E5</color>  <!-- Purple for check mark -->
+    <color name="check_mark">#4CAF50</color>  <!-- Green for check mark -->
     <color name="exclamation">#FFB5B5</color>  <!-- Pink for exclamation -->
     <color name="button_background">#2D2B4E</color>  <!-- Dark purple for buttons -->
     <color name="button_text">#FFFFFF</color>

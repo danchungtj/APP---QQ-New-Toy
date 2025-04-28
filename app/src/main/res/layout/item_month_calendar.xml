@@ -26,14 +26,30 @@
             android:textStyle="bold"
             android:layout_marginBottom="16dp" />
 
-        <GridView
+        <!-- Add Day Headers -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView style="@style/DayHeaderStyle" android:text="Su" />
+            <TextView style="@style/DayHeaderStyle" android:text="M" />
+            <TextView style="@style/DayHeaderStyle" android:text="T" />
+            <TextView style="@style/DayHeaderStyle" android:text="W" />
+            <TextView style="@style/DayHeaderStyle" android:text="T" />
+            <TextView style="@style/DayHeaderStyle" android:text="F" />
+            <TextView style="@style/DayHeaderStyle" android:text="S" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView 
             android:id="@+id/calendarGrid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:numColumns="7"
-            android:horizontalSpacing="4dp"
-            android:verticalSpacing="4dp"
-            android:stretchMode="columnWidth" />
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="7"
+            />
 
     </LinearLayout>
 

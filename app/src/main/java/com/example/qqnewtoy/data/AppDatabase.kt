@@ -7,10 +7,11 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import java.util.Date
 
-@Database(entities = [ToyDay::class], version = 1)
+@Database(entities = [ToyDay::class, Note::class], version = 2, exportSchema = false)
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun toyDayDao(): ToyDayDao
+    abstract fun noteDao(): NoteDao
 
     companion object {
         @Volatile
@@ -22,7 +23,9 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "toy_database"
-                ).build()
+                )
+                .fallbackToDestructiveMigration()
+                .build()
                 INSTANCE = instance
                 instance
             }
