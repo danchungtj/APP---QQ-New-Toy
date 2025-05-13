@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import java.util.Date
 
-@Database(entities = [ToyDay::class, Note::class], version = 2, exportSchema = false)
+@Database(entities = [ToyDay::class, Note::class], version = 3, exportSchema = false)
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun toyDayDao(): ToyDayDao

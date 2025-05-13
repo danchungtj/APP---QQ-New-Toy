@@ -14,4 +14,6 @@
     <color name="exclamation">#FFB5B5</color>  <!-- Pink for exclamation -->
     <color name="button_background">#2D2B4E</color>  <!-- Dark purple for buttons -->
     <color name="button_text">#FFFFFF</color>
+    <color name="current_date_bg">#E0E0E0</color>
+    <color name="past_month_card_bg">#F0F0F0</color>
 </resources>

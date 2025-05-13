@@ -2,8 +2,15 @@
     <string name="app_name">QQ\'s Study History</string>
     <string name="greeting">Keep track of QQ\'s study and new toys!\n\nStudy and Toy Calendar</string>
     <string name="today_s_toy">Today\'s Study and Toys</string>
-    <string name="add_new_toy">Add Note For Today</string>
+    <string name="add_new_toy">ADD NOTE</string>
     <string name="note_hint">Type your note here...</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
+    <string name="all_notes">All Notes</string>
+    <string name="all_notes_multiline">All Notes\n&#10;</string>
+    <string name="no_notes_found">No notes found.</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="confirm_delete_title">Confirm Deletion</string>
+    <string name="confirm_delete_message">Are you sure you want to delete this note?</string>
 </resources>

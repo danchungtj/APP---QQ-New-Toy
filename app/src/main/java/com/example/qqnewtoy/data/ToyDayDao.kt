@@ -9,6 +9,9 @@ interface ToyDayDao {
     @Query("SELECT * FROM toy_days WHERE date BETWEEN :startDate AND :endDate")
     fun getDaysInRange(startDate: Date, endDate: Date): Flow<List<ToyDay>>
 
+    @Query("SELECT * FROM toy_days")
+    suspend fun getAllToyDays(): List<ToyDay>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(toyDay: ToyDay)
 
